@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "title": "Warehouse Associate",
+        "salary": "Average Salary PKR34,331 per month",
+        "status": "Job Openings",
+        "skills": "Skills"
+    },
+    {
+        "id": 2,
+        "title": "Backend Developer",
+        "salary": "Average Salary PKR46,052 per month",
+        "status": "Job Openings",
+        "skills": "Skills"
+    },
+    {
+        "id": 3,
+        "title": "Front Desk Agent",
+        "salary": "Average Salary PKR43,402 per month",
+        "status": "Job Openings",
+        "skills": "Skills"
+    },
+    {
+        "id": 4,
+        "title": "Crew Member",
+        "salary": "Average Salary PKR44,781 per month",
+        "status": "Job Openings",
+        "skills": "Skills"
+    },
+    {
+        "id": 5,
+        "title": "Software Engineer",
+        "salary": "Average Salary PKR102,781 per month",
+        "status": "Job Openings",
+        "skills": "Skills"
+    },
+    {
+        "id": 6,
+        "title": "App Developer",
+        "salary": "Average Salary PKR92,781 per month",
+        "status": "Job Openings",
+        "skills": "Skills"
+    },
+    {
+        "id": 7,
+        "title": "UI/UX Designer",
+        "salary": "Average Salary PKR108,781 per month",
+        "status": "Job Openings",
+        "skills": "Skills"
+    },
+    {
+        "id": 8,
+        "title": "Web Developer",
+        "salary": "Average Salary PKR88,601 per month",
+        "status": "Job Openings",
+        "skills": "Skills"
+    },
+    {
+        "id": 9,
+        "title": "Full Stack Developer",
+        "salary": "Average Salary PKR88,601 per month",
+        "status": "Job Openings",
+        "skills": "Skills"
+    }
+]
