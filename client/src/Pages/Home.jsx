@@ -83,7 +83,8 @@ if(selected){
     }
 
       //slice data based on current page
-
+      const {startIndex, endIndex} = caluclatePageRange()
+      filteredJobs = filteredJobs.slice(startIndex, endIndex)
       return filteredJobs.map((data, i) => <Card key={i} data={data}/>)
 
     }
@@ -109,7 +110,18 @@ if(selected){
           <p>No Data Found!</p>  
           </> 
         }
-        
+
+        {/* pagination */}
+        {
+          result.length > 0 ? (
+            <div className="flex justify-center mt-4 space-x-8">
+              <button onClick={prevPage} disabled={currentPage === 1} className="hover:underline">Previous</button>
+              <span className="mx-2">Page {currentPage} of {Math.ceil(filteredItems.length / itemsPerPage)}</span>
+              <button onClick={nextPage} disabled={currentPage === Math.ceil(filteredItems.length / itemsPerPage)} className="hover:underline">Next</button>
+            </div>
+          ) : ""
+        }
+
         </div>
         
         {/* right side */}
